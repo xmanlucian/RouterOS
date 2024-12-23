@@ -1,6 +1,4 @@
-# Writing the improved README content to a file named README.md
 
-readme_content = """
 # RouterOS Installation Script
 
 This project provides a streamlined solution for installing RouterOS CHR (Cloud Hosted Router) using a simple DD method. It automates the setup process, ensuring a smooth and efficient installation experience on Linux systems.
@@ -58,9 +56,3 @@ This project is open-source and distributed under the [MIT License](https://open
 
 Simplify your RouterOS CHR installation with this quick and reliable script. Get started now and enjoy the power of automated deployment!
 """
-
-# Write the content to README.md
-with open("README.md", "w") as readme_file:
-    readme_file.write(readme_content)
-
-"README.md file has been successfully created with the updated content."
